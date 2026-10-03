@@ -7,11 +7,11 @@ package:
 
 source:
   # Can't use the standard pattern because of the hypen/underscore remapping.
-  url: https://pypi.io/packages/source/b/bed-reader/bed_reader-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/b/bed-reader/bed_reader-{{ version }}.tar.gz
   sha256: fea2ef4562ca3211b6087185d8ff73e60b75915066c10d2d1b398ab87ece4ed9
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<37]
 
 requirements:
